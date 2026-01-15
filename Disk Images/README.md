@@ -47,6 +47,12 @@ These disk images can be:
 - Embedded in educational platforms or CTF hosting services
 - Distributed to students or participants in training sessions
 
+**Hosting Requirements:**
+- Total size of all 8 disk images: ~28KB (extremely lightweight)
+- Individual file sizes range from 2KB to 6KB
+- Minimal bandwidth requirements - suitable for any hosting environment
+- No special server configuration needed
+
 ### Example: Serving via HTTP
 
 ```bash
@@ -68,8 +74,8 @@ python3 -m http.server 8000
 If you need to regenerate these disk images after making changes to the challenges:
 
 ```bash
-# From the repository root
-cd /path/to/CTF-Challenges
+# Navigate to your CTF-Challenges repository directory
+cd ~/CTF-Challenges
 
 # Create disk images for all challenges
 tar -czf "Disk Images/challenge1-hidden-files.tar.gz" challenge1-hidden-files/
