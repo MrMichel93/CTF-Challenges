@@ -31,7 +31,21 @@ Each challenge is contained in its own directory with:
 ### Very Hard Level
 8. **[Challenge 8: System Intrusion Analysis](./challenge8-intrusion-analysis/)** - Perform comprehensive forensic analysis of a compromised system
 
+## Disk Images
+
+Pre-packaged disk images for all challenges are available in the **[Disk Images](./Disk%20Images/)** directory. These compressed archives can be easily distributed, hosted on websites, or loaded into different platforms.
+
+Each disk image is a `.tar.gz` file containing the complete challenge environment. Perfect for:
+- Hosting on educational platforms
+- Distributing to students or training participants
+- Deploying on CTF hosting services
+- Quick offline access
+
+See the [Disk Images README](./Disk%20Images/README.md) for more details on how to use and deploy them.
+
 ## Getting Started
+
+### Option 1: Clone the Repository
 
 1. Clone this repository:
    ```bash
@@ -47,6 +61,22 @@ Each challenge is contained in its own directory with:
 3. Read the README.md in each challenge folder for instructions
 
 4. Try to solve the challenge on your own before checking the hints or solutions
+
+### Option 2: Use Disk Images
+
+1. Download a challenge disk image from the `Disk Images` folder
+   
+2. Extract the challenge:
+   ```bash
+   tar -xzf challenge1-hidden-files.tar.gz
+   cd challenge1-hidden-files
+   ```
+
+3. Read the README.md and run the setup script:
+   ```bash
+   cat README.md
+   bash setup.sh
+   ```
 
 ## Skills You'll Learn
 
