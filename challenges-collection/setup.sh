@@ -10,7 +10,7 @@ cat << 'EOF'
 ║                                                                ║
 ║           CTF CHALLENGES COLLECTION (Challenges 1-8)           ║
 ║                                                                ║
-╔════════════════════════════════════════════════════════════════╗
+╚════════════════════════════════════════════════════════════════╝
 
 Welcome to the CTF Challenges Collection!
 
